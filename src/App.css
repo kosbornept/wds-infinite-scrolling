@@ -1,0 +1,68 @@
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    position: relative;
+    background-color: rgb(67, 200, 98);
+    overflow-x: hidden;
+}
+
+.content{ 
+    min-height: 50px; 
+    background:rgb(67, 200, 98); 
+    display: flex;
+    flex-direction: column;
+}
+
+footer { 
+    background:rgb(227, 115, 131); 
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 2rem; /* Set same as footer's height */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+input {
+    margin: .25em auto;
+    text-align: center;
+    height: 3em;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.bookTitle {
+    color: white;
+    font-size: 1.1em;
+    padding: .25em;
+}
+
+.description {
+    margin: 0 auto;
+    color: white;
+    font-size: 1.1em;
+    width: 70%;
+    padding: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  padding: .25em;
+}
